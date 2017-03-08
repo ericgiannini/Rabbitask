@@ -21,15 +21,23 @@
 @implementation ToDoListTableViewController
 
 - (void)loadInitialData {
+    
+    
     ToDoItem *item1 = [[ToDoItem alloc] init];
     item1.itemName = @"Create a web app";
     [self.toDoItems addObject:item1];
+    
+    
     ToDoItem *item2 = [[ToDoItem alloc] init];
     item2.itemName = @"Ride the bike";
     [self.toDoItems addObject:item2];
+    
+    
     ToDoItem *item3 = [[ToDoItem alloc] init];
     item3.itemName = @"Finish a review";
     [self.toDoItems addObject:item3];
+
+
 }
 
 
@@ -64,7 +72,6 @@
 
     ToDoItem *tappedItem = [self.toDoItems objectAtIndex:indexPath.row];
     
-
     tappedItem.completed = !tappedItem.completed;
 
     [tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationNone];
