@@ -1,4 +1,5 @@
-![repositoryLogo](./Rabbitask.svg)
+
+[![solarized dualmode](https://github.com/ericgiannini/ToDoListiOS/blob/master/Rabbitask.svg)](
 
 <p align="center">
     <img src="https://img.shields.io/badge/platform-iOS%208%2B-blue.svg?style=flat" alt="Platform: iOS 8+" />
