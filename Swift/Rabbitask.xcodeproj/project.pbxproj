@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99AE83671E678BBB00E28BB2 /* RabbitaskTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AE83661E678BBB00E28BB2 /* RabbitaskTVC.swift */; };
+		99AE83691E6A163600E28BB2 /* AddRabbitaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AE83681E6A163600E28BB2 /* AddRabbitaskVC.swift */; };
+		99CF6F2C1E67813100B0D826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CF6F2B1E67813100B0D826 /* AppDelegate.swift */; };
+		99CF6F2E1E67813100B0D826 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CF6F2D1E67813100B0D826 /* ViewController.swift */; };
+		99CF6F311E67813100B0D826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99CF6F2F1E67813100B0D826 /* Main.storyboard */; };
+		99CF6F331E67813100B0D826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99CF6F321E67813100B0D826 /* Assets.xcassets */; };
+		99CF6F361E67813100B0D826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99CF6F341E67813100B0D826 /* LaunchScreen.storyboard */; };
+		99CF6F3E1E67823500B0D826 /* Rabbitask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CF6F3D1E67823500B0D826 /* Rabbitask.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99AE83661E678BBB00E28BB2 /* RabbitaskTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RabbitaskTVC.swift; sourceTree = "<group>"; };
+		99AE83681E6A163600E28BB2 /* AddRabbitaskVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRabbitaskVC.swift; sourceTree = "<group>"; };
+		99CF6F281E67813100B0D826 /* Rabbitask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rabbitask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99CF6F2B1E67813100B0D826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99CF6F2D1E67813100B0D826 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99CF6F301E67813100B0D826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99CF6F321E67813100B0D826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99CF6F351E67813100B0D826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99CF6F371E67813100B0D826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99CF6F3D1E67823500B0D826 /* Rabbitask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rabbitask.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99CF6F251E67813100B0D826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99CF6F1F1E67813100B0D826 = {
+			isa = PBXGroup;
+			children = (
+				99CF6F2A1E67813100B0D826 /* Rabbitask */,
+				99CF6F291E67813100B0D826 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99CF6F291E67813100B0D826 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99CF6F281E67813100B0D826 /* Rabbitask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99CF6F2A1E67813100B0D826 /* Rabbitask */ = {
+			isa = PBXGroup;
+			children = (
+				99CF6F2B1E67813100B0D826 /* AppDelegate.swift */,
+				99CF6F2D1E67813100B0D826 /* ViewController.swift */,
+				99AE83661E678BBB00E28BB2 /* RabbitaskTVC.swift */,
+				99AE83681E6A163600E28BB2 /* AddRabbitaskVC.swift */,
+				99CF6F3D1E67823500B0D826 /* Rabbitask.swift */,
+				99CF6F2F1E67813100B0D826 /* Main.storyboard */,
+				99CF6F321E67813100B0D826 /* Assets.xcassets */,
+				99CF6F341E67813100B0D826 /* LaunchScreen.storyboard */,
+				99CF6F371E67813100B0D826 /* Info.plist */,
+			);
+			path = Rabbitask;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99CF6F271E67813100B0D826 /* Rabbitask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99CF6F3A1E67813100B0D826 /* Build configuration list for PBXNativeTarget "Rabbitask" */;
+			buildPhases = (
+				99CF6F241E67813100B0D826 /* Sources */,
+				99CF6F251E67813100B0D826 /* Frameworks */,
+				99CF6F261E67813100B0D826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rabbitask;
+			productName = Rabbitask;
+			productReference = 99CF6F281E67813100B0D826 /* Rabbitask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99CF6F201E67813100B0D826 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Unicorn Mobile, LLC";
+				TargetAttributes = {
+					99CF6F271E67813100B0D826 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 99CF6F231E67813100B0D826 /* Build configuration list for PBXProject "Rabbitask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99CF6F1F1E67813100B0D826;
+			productRefGroup = 99CF6F291E67813100B0D826 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99CF6F271E67813100B0D826 /* Rabbitask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99CF6F261E67813100B0D826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CF6F361E67813100B0D826 /* LaunchScreen.storyboard in Resources */,
+				99CF6F331E67813100B0D826 /* Assets.xcassets in Resources */,
+				99CF6F311E67813100B0D826 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99CF6F241E67813100B0D826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CF6F2E1E67813100B0D826 /* ViewController.swift in Sources */,
+				99AE83671E678BBB00E28BB2 /* RabbitaskTVC.swift in Sources */,
+				99AE83691E6A163600E28BB2 /* AddRabbitaskVC.swift in Sources */,
+				99CF6F3E1E67823500B0D826 /* Rabbitask.swift in Sources */,
+				99CF6F2C1E67813100B0D826 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99CF6F2F1E67813100B0D826 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99CF6F301E67813100B0D826 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99CF6F341E67813100B0D826 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99CF6F351E67813100B0D826 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99CF6F381E67813100B0D826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99CF6F391E67813100B0D826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99CF6F3B1E67813100B0D826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rabbitask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.unicornmobile.Rabbitask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		99CF6F3C1E67813100B0D826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rabbitask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.unicornmobile.Rabbitask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99CF6F231E67813100B0D826 /* Build configuration list for PBXProject "Rabbitask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99CF6F381E67813100B0D826 /* Debug */,
+				99CF6F391E67813100B0D826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99CF6F3A1E67813100B0D826 /* Build configuration list for PBXNativeTarget "Rabbitask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99CF6F3B1E67813100B0D826 /* Debug */,
+				99CF6F3C1E67813100B0D826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99CF6F201E67813100B0D826 /* Project object */;
+}
