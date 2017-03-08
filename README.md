@@ -14,13 +14,17 @@
     <img src="http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat" alt="License: MIT" />
 </p>
 
+
+
 ------
 # Rabbitask
 
 
 Rabbitask is an iOS app exhibiting the implementation of Unwind Segues, `prepareForSegue` / `prepare(for segue:)` & `UITableView`.
 
-## Features 
+#### Please join us in [issues](https://github.com/ericgiannini/Rabbitask/issues) if you'd like to help us get to 1.0. Read about more [use cases for Rabbitask](https://medium.com/@unicornmobile/rabbitask-2e4c7dc82f16#.r73g7jjj3).
+
+## Major Features 
 
 + Unwind Segue
 +  `prepareForSegue` / `prepare(for segue:)` 
