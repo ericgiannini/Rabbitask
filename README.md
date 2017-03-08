@@ -1,6 +1,8 @@
 
 ![solarized dualmode](https://cdn.rawgit.com/ericgiannini/ToDoListiOS/af05da58/Rabbitask.svg)
 
+ [//]: <Comment> (If you're reading source code for Rabbitask's `README.md`, then a shortcut to display an image here is to copy the GitHub URL for the image to `rawgit.com`.)
+
 <p align="center">
     <img src="https://img.shields.io/badge/platform-iOS%208%2B-blue.svg?style=flat" alt="Platform: iOS 8+" />
     <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/Language-Swift%203-green.svg?style=flat" alt="Language: Swift" /></a>
@@ -12,8 +14,9 @@
     <img src="http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat" alt="License: MIT" />
 </p>
 
+------
+# Rabbitask
 
-#Rabbitask 
 
 Rabbitask is an iOS app exhibiting the implementation of Unwind Segues, `prepareForSegue` / `prepare(for segue:)` & `UITableView`.
 
