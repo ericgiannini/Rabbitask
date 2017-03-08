@@ -1,6 +1,6 @@
 #Rabbitask
 
-Rabbitask is an iOS app exhibiting the implementation of Unwind Segues with `UITableView`.
+Rabbitask is an iOS app exhibiting the implementation of Unwind Segues, `prepareForSegue` / `prepare(for segue:)` & `UITableView`.
 
 ## Languages & Apps 
 
