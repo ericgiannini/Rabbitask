@@ -20,9 +20,7 @@
 # Rabbitask
 
 
-Rabbitask is an iOS app exhibiting the implementation of Unwind Segues, `prepareForSegue` / `prepare(for segue:)` & `UITableView`.
-
-#### Please join us in [issues](https://github.com/ericgiannini/Rabbitask/issues) if you'd like to help us get to 1.0. Read about more [use cases for Rabbitask](https://medium.com/@unicornmobile/rabbitask-2e4c7dc82f16#.r73g7jjj3).
+Rabbitask is a set of template iOS apps for a list of errands exhibiting the implementation of Unwind Segues, `prepareForSegue` / `prepare(for segue:)` & `UITableView`.
 
 ## Major Features 
 
@@ -31,11 +29,11 @@ Rabbitask is an iOS app exhibiting the implementation of Unwind Segues, `prepare
 +  `UITableView`
 
 
-## Languages & Apps 
+## Languages
 
 Rabbitask is written in both Objective-C as well as Swift 3.0.
 
-
+###### Please join us in [issues](https://github.com/ericgiannini/Rabbitask/issues) if you'd like to help us get to 1.0. Read about more [use cases for Rabbitask](https://medium.com/@unicornmobile/rabbitask-2e4c7dc82f16#.r73g7jjj3).
 
 
 
