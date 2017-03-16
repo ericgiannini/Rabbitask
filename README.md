@@ -24,12 +24,23 @@ Rabbitask is a set of template iOS apps for a list app exhibiting implementation
 
 ## Major Features 
 
-+  `UITableView`
 +  Unwind Segue
+
+[//]: <Comment> ( While an segues are common, unwinds naturally return the sourceViewController.)
+
 +  `prepareForSegue` / `prepare(for segue:)` 
+
+[//]: <Comment> ( While segues are common, unwinds return naturally.)
+
+
 +  `UIBarButtonItem` as an `IBOutlet`
 
+ [//]: <Comment> ( While an IBAction may be a default assumption, `UIBarButtonItem` as an `IBOutlet` is far more elegant, intuitive, brief, since `IBOutlet` is not a function.)
+ 
++  `UITableView`
 
+[//]: <Comment> ( `UITableView`s are customizable.)
+ 
 
 
 ## Languages
