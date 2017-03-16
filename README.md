@@ -20,14 +20,16 @@
 # Rabbitask
 
 
-Rabbitask is a set of template iOS apps for a list app exhibiting the implementation of `UITableView`, Unwind Segues, `prepareForSegue` / `prepare(for segue:)`, & `UIButton` as an `IBOutlet`
+Rabbitask is a set of template iOS apps for a list app exhibiting implementation of a unique set of uncommon features such as `UITableView`, Unwind Segues, `prepareForSegue` / `prepare(for segue:)`, & `UIBarButtonItem` as an `IBOutlet` in both Objective-C & Swift 3.
 
 ## Major Features 
 
 +  `UITableView`
 +  Unwind Segue
 +  `prepareForSegue` / `prepare(for segue:)` 
-+  `UIButton` as an `IBOutlet`
++  `UIBarButtonItem` as an `IBOutlet`
+
+
 
 
 ## Languages
