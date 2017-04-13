@@ -62,8 +62,8 @@
 			children = (
 				99CF6F2B1E67813100B0D826 /* AppDelegate.swift */,
 				99CF6F2D1E67813100B0D826 /* ViewController.swift */,
-				99AE83661E678BBB00E28BB2 /* RabbitaskTVC.swift */,
 				99AE83681E6A163600E28BB2 /* AddRabbitaskVC.swift */,
+				99AE83661E678BBB00E28BB2 /* RabbitaskTVC.swift */,
 				99CF6F3D1E67823500B0D826 /* Rabbitask.swift */,
 				99CF6F2F1E67813100B0D826 /* Main.storyboard */,
 				99CF6F321E67813100B0D826 /* Assets.xcassets */,

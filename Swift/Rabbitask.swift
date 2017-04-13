@@ -10,14 +10,20 @@ import Foundation
 
 import UIKit
 
-struct Rabbitask {
-    var itemName: String = ""
+class Rabbitask {
+    
+    var itemName = String()
+    var isCompleted = Bool()
+    
+    init() {
+        
+    }
 }
 
 
-//class TodoList: NSObject {
-//    private var items: [String] = []
-//    
+//class Rabbitask: NSObject {
+//    private var items = [String]()
+//
 //    func addItem(item: String) {
 //        items.append(item)
 //    }
