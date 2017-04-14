@@ -30,7 +30,7 @@ class RabbitaskTVC: UITableViewController {
         let rabbitaskThree = Rabbitask()
         rabbitaskThree.itemName = "eat healthily"
         rabbitasks.append(rabbitaskThree)
-
+        
     }
     
     override func viewDidLoad() {
@@ -59,18 +59,20 @@ class RabbitaskTVC: UITableViewController {
     
     
     @IBAction func unwindToTVC(sender:UIStoryboardSegue) {
+        
         if let sourceViewController = sender.source as? AddRabbitaskVC {
             
             // FIXME: empty cell returns even if textField is empty
             let newRabbitask = sourceViewController.toDoRabbitask
             
-            rabbitasks.append(newRabbitask)
-            
-            self.tableView.reloadData()
+            // FIXED: but solution is NOT optimal
+            if !newRabbitask.itemName.isEmpty {
+                rabbitasks.append(newRabbitask)
+                self.tableView.reloadData()
+                
+            }
+
         }
-        
-        
-        
     }
     
     
@@ -124,30 +126,30 @@ class RabbitaskTVC: UITableViewController {
         tableView.reloadRows(at: [indexPath], with: UITableViewRowAnimation.none)
     }
     
-//    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        //
-//        tableView.deselectRow(at: indexPath, animated: true)
-//        
-//        var rabbitaskTapped = Rabbitask()
-//        
-//        if rabbitaskTapped = self.rabbitasks[indexPath.row].isCompleted {
-//            rabbitaskTapped.isCompleted = !rabbitaskTapped.isCompleted
-//        }
-//    }
+    //    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    //        //
+    //        tableView.deselectRow(at: indexPath, animated: true)
+    //
+    //        var rabbitaskTapped = Rabbitask()
+    //
+    //        if rabbitaskTapped = self.rabbitasks[indexPath.row].isCompleted {
+    //            rabbitaskTapped.isCompleted = !rabbitaskTapped.isCompleted
+    //        }
+    //    }
     
     
-//    - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-//    
-//    [tableView deselectRowAtIndexPath:indexPath animated:NO];
-//    
-//    ToDoItem *tappedItem = [self.toDoItems objectAtIndex:indexPath.row];
-//    
-//    tappedItem.completed = !tappedItem.completed;
-//    
-//    [tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationNone];
-//    
-//    
-//    }
+    //    - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    //
+    //    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+    //
+    //    ToDoItem *tappedItem = [self.toDoItems objectAtIndex:indexPath.row];
+    //
+    //    tappedItem.completed = !tappedItem.completed;
+    //
+    //    [tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationNone];
+    //
+    //
+    //    }
     
     /*
      // Override to support conditional editing of the table view.
