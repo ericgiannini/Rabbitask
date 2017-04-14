@@ -61,6 +61,7 @@ class RabbitaskTVC: UITableViewController {
     @IBAction func unwindToTVC(sender:UIStoryboardSegue) {
         if let sourceViewController = sender.source as? AddRabbitaskVC {
             
+            // FIXME: empty cell returns even if textField is empty
             let newRabbitask = sourceViewController.toDoRabbitask
             
             rabbitasks.append(newRabbitask)
