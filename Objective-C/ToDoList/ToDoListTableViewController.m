@@ -8,7 +8,7 @@
 
 #import "ToDoListTableViewController.h"
 #import "Rabbitask.h"
-#import "AddToDoItemViewController.h"
+#import "AddRabbitaskVC.h"
 
 
 @interface ToDoListTableViewController ()
@@ -42,8 +42,8 @@
 
 
 - (IBAction)unwindToList:(UIStoryboardSegue *)segue {
-    AddToDoItemViewController *source = [segue sourceViewController];
-    Rabbitask *item = source.toDoItem;
+    AddRabbitaskVC *source = [segue sourceViewController];
+    Rabbitask *item = source.rabbitask;
     if (item != nil) {
         [self.toDoItems addObject:item];
         [self.tableView reloadData];
