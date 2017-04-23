@@ -20,6 +20,18 @@ class Rabbitask {
     }
 }
 
+//lazy var beersPerDay: Int = {
+//    
+//    var dateFormatter = NSDateFormatter()
+//    dateFormatter.dateFormat = "EEEE"
+//    let dayOfWeek = dateFormatter.stringFromDate(NSDate.date())
+//    
+//    if dayOfWeek == "Saturday" || dayOfWeek == "Sunday" {
+//        return 30
+//    } else {
+//        return 17
+//    }
+//}()
 
 //class Rabbitask: NSObject {
 //    private var items = [String]()

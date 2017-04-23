@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ToDoItem.h"
+#import "Rabbitask.h"
 
 
 @interface AddToDoItemViewController : UIViewController
 
-@property ToDoItem *toDoItem;
+@property Rabbitask *toDoItem;
 
 
 @end

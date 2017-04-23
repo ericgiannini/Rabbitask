@@ -7,7 +7,7 @@
 //
 
 #import "ToDoListTableViewController.h"
-#import "ToDoItem.h"
+#import "Rabbitask.h"
 #import "AddToDoItemViewController.h"
 
 
@@ -23,17 +23,17 @@
 - (void)loadInitialData {
     
     
-    ToDoItem *item1 = [[ToDoItem alloc] init];
+    Rabbitask *item1 = [[Rabbitask alloc] init];
     item1.itemName = @"Create a web app";
     [self.toDoItems addObject:item1];
     
     
-    ToDoItem *item2 = [[ToDoItem alloc] init];
+    Rabbitask *item2 = [[Rabbitask alloc] init];
     item2.itemName = @"Ride the bike";
     [self.toDoItems addObject:item2];
     
     
-    ToDoItem *item3 = [[ToDoItem alloc] init];
+    Rabbitask *item3 = [[Rabbitask alloc] init];
     item3.itemName = @"Finish a review";
     [self.toDoItems addObject:item3];
     
@@ -43,7 +43,7 @@
 
 - (IBAction)unwindToList:(UIStoryboardSegue *)segue {
     AddToDoItemViewController *source = [segue sourceViewController];
-    ToDoItem *item = source.toDoItem;
+    Rabbitask *item = source.toDoItem;
     if (item != nil) {
         [self.toDoItems addObject:item];
         [self.tableView reloadData];
@@ -70,7 +70,7 @@
     
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
     
-    ToDoItem *tappedItem = [self.toDoItems objectAtIndex:indexPath.row];
+    Rabbitask *tappedItem = [self.toDoItems objectAtIndex:indexPath.row];
     
     tappedItem.completed = !tappedItem.completed;
     
@@ -93,7 +93,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ListPrototypeCell" forIndexPath:indexPath];
     
-    ToDoItem *toDoItem = [self.toDoItems objectAtIndex:indexPath.row];
+    Rabbitask *toDoItem = [self.toDoItems objectAtIndex:indexPath.row];
     cell.textLabel.text = toDoItem.itemName;
     
     
